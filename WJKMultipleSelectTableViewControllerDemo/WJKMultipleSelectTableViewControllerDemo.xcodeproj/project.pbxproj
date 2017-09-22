@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACA7C7C1F751E7C00857AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7C7B1F751E7C00857AB3 /* main.m */; };
+		FACA7C7F1F751E7C00857AB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7C7E1F751E7C00857AB3 /* AppDelegate.m */; };
+		FACA7C821F751E7C00857AB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7C811F751E7C00857AB3 /* ViewController.m */; };
+		FACA7C851F751E7C00857AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA7C831F751E7C00857AB3 /* Main.storyboard */; };
+		FACA7C871F751E7C00857AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACA7C861F751E7C00857AB3 /* Assets.xcassets */; };
+		FACA7CB31F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CB01F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m */; };
+		FACA7CB41F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CB21F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m */; };
+		FACA7CBA1F75204C00857AB3 /* ZHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CB91F75204C00857AB3 /* ZHBaseTableViewController.m */; };
+		FACA7CBD1F75230E00857AB3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA7CBC1F75230E00857AB3 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACA7C911F751E7C00857AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACA7C6F1F751E7C00857AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACA7C761F751E7C00857AB3;
+			remoteInfo = WJKMultipleSelectTableViewControllerDemo;
+		};
+		FACA7C9C1F751E7C00857AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACA7C6F1F751E7C00857AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACA7C761F751E7C00857AB3;
+			remoteInfo = WJKMultipleSelectTableViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACA7C771F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJKMultipleSelectTableViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACA7C7B1F751E7C00857AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FACA7C7D1F751E7C00857AB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FACA7C7E1F751E7C00857AB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FACA7C801F751E7C00857AB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FACA7C811F751E7C00857AB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FACA7C841F751E7C00857AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACA7C861F751E7C00857AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACA7C8B1F751E7C00857AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACA7C901F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJKMultipleSelectTableViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACA7C9B1F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJKMultipleSelectTableViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACA7CAF1F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewCell.h; sourceTree = "<group>"; };
+		FACA7CB01F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewCell.m; sourceTree = "<group>"; };
+		FACA7CB11F751EBF00857AB3 /* WJKMultipleSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewController.h; sourceTree = "<group>"; };
+		FACA7CB21F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewController.m; sourceTree = "<group>"; };
+		FACA7CB81F75204C00857AB3 /* ZHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBaseTableViewController.h; sourceTree = "<group>"; };
+		FACA7CB91F75204C00857AB3 /* ZHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBaseTableViewController.m; sourceTree = "<group>"; };
+		FACA7CBB1F75213A00857AB3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FACA7CBC1F75230E00857AB3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACA7C741F751E7C00857AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACA7C8D1F751E7C00857AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACA7C981F751E7C00857AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACA7C6E1F751E7C00857AB3 = {
+			isa = PBXGroup;
+			children = (
+				FACA7C791F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo */,
+				FACA7C781F751E7C00857AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACA7C781F751E7C00857AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACA7C771F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo.app */,
+				FACA7C901F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoTests.xctest */,
+				FACA7C9B1F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACA7C791F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FACA7CAD1F751EBF00857AB3 /* MultipleSelectTableViewController */,
+				FACA7C7D1F751E7C00857AB3 /* AppDelegate.h */,
+				FACA7C7E1F751E7C00857AB3 /* AppDelegate.m */,
+				FACA7CB81F75204C00857AB3 /* ZHBaseTableViewController.h */,
+				FACA7CB91F75204C00857AB3 /* ZHBaseTableViewController.m */,
+				FACA7C801F751E7C00857AB3 /* ViewController.h */,
+				FACA7C811F751E7C00857AB3 /* ViewController.m */,
+				FACA7C831F751E7C00857AB3 /* Main.storyboard */,
+				FACA7CBC1F75230E00857AB3 /* Launch Screen.storyboard */,
+				FACA7C861F751E7C00857AB3 /* Assets.xcassets */,
+				FACA7C8B1F751E7C00857AB3 /* Info.plist */,
+				FACA7C7A1F751E7C00857AB3 /* Supporting Files */,
+			);
+			path = WJKMultipleSelectTableViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		FACA7C7A1F751E7C00857AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACA7C7B1F751E7C00857AB3 /* main.m */,
+				FACA7CBB1F75213A00857AB3 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACA7CAD1F751EBF00857AB3 /* MultipleSelectTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FACA7CAE1F751EBF00857AB3 /* WJKMultipleSelectTableViewCell */,
+				FACA7CB11F751EBF00857AB3 /* WJKMultipleSelectTableViewController.h */,
+				FACA7CB21F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m */,
+			);
+			path = MultipleSelectTableViewController;
+			sourceTree = "<group>";
+		};
+		FACA7CAE1F751EBF00857AB3 /* WJKMultipleSelectTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FACA7CAF1F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.h */,
+				FACA7CB01F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m */,
+			);
+			path = WJKMultipleSelectTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACA7C761F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACA7CA41F751E7C00857AB3 /* Build configuration list for PBXNativeTarget "WJKMultipleSelectTableViewControllerDemo" */;
+			buildPhases = (
+				FACA7C731F751E7C00857AB3 /* Sources */,
+				FACA7C741F751E7C00857AB3 /* Frameworks */,
+				FACA7C751F751E7C00857AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJKMultipleSelectTableViewControllerDemo;
+			productName = WJKMultipleSelectTableViewControllerDemo;
+			productReference = FACA7C771F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACA7C8F1F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACA7CA71F751E7C00857AB3 /* Build configuration list for PBXNativeTarget "WJKMultipleSelectTableViewControllerDemoTests" */;
+			buildPhases = (
+				FACA7C8C1F751E7C00857AB3 /* Sources */,
+				FACA7C8D1F751E7C00857AB3 /* Frameworks */,
+				FACA7C8E1F751E7C00857AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACA7C921F751E7C00857AB3 /* PBXTargetDependency */,
+			);
+			name = WJKMultipleSelectTableViewControllerDemoTests;
+			productName = WJKMultipleSelectTableViewControllerDemoTests;
+			productReference = FACA7C901F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACA7C9A1F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACA7CAA1F751E7C00857AB3 /* Build configuration list for PBXNativeTarget "WJKMultipleSelectTableViewControllerDemoUITests" */;
+			buildPhases = (
+				FACA7C971F751E7C00857AB3 /* Sources */,
+				FACA7C981F751E7C00857AB3 /* Frameworks */,
+				FACA7C991F751E7C00857AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACA7C9D1F751E7C00857AB3 /* PBXTargetDependency */,
+			);
+			name = WJKMultipleSelectTableViewControllerDemoUITests;
+			productName = WJKMultipleSelectTableViewControllerDemoUITests;
+			productReference = FACA7C9B1F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACA7C6F1F751E7C00857AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Zeaho;
+				TargetAttributes = {
+					FACA7C761F751E7C00857AB3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2ENWLKZ8AQ;
+						ProvisioningStyle = Automatic;
+					};
+					FACA7C8F1F751E7C00857AB3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2ENWLKZ8AQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FACA7C761F751E7C00857AB3;
+					};
+					FACA7C9A1F751E7C00857AB3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2ENWLKZ8AQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FACA7C761F751E7C00857AB3;
+					};
+				};
+			};
+			buildConfigurationList = FACA7C721F751E7C00857AB3 /* Build configuration list for PBXProject "WJKMultipleSelectTableViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACA7C6E1F751E7C00857AB3;
+			productRefGroup = FACA7C781F751E7C00857AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACA7C761F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo */,
+				FACA7C8F1F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoTests */,
+				FACA7C9A1F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACA7C751F751E7C00857AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACA7CBD1F75230E00857AB3 /* Launch Screen.storyboard in Resources */,
+				FACA7C871F751E7C00857AB3 /* Assets.xcassets in Resources */,
+				FACA7C851F751E7C00857AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACA7C8E1F751E7C00857AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACA7C991F751E7C00857AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACA7C731F751E7C00857AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACA7CB31F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */,
+				FACA7C821F751E7C00857AB3 /* ViewController.m in Sources */,
+				FACA7CBA1F75204C00857AB3 /* ZHBaseTableViewController.m in Sources */,
+				FACA7C7F1F751E7C00857AB3 /* AppDelegate.m in Sources */,
+				FACA7CB41F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m in Sources */,
+				FACA7C7C1F751E7C00857AB3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACA7C8C1F751E7C00857AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACA7C971F751E7C00857AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACA7C921F751E7C00857AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACA7C761F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo */;
+			targetProxy = FACA7C911F751E7C00857AB3 /* PBXContainerItemProxy */;
+		};
+		FACA7C9D1F751E7C00857AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACA7C761F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo */;
+			targetProxy = FACA7C9C1F751E7C00857AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACA7C831F751E7C00857AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACA7C841F751E7C00857AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACA7CA21F751E7C00857AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FACA7CA31F751E7C00857AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACA7CA51F751E7C00857AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WJKMultipleSelectTableViewControllerDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = WJKMultipleSelectTableViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKMultipleSelectTableViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FACA7CA61F751E7C00857AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WJKMultipleSelectTableViewControllerDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = WJKMultipleSelectTableViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKMultipleSelectTableViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FACA7CA81F751E7C00857AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				INFOPLIST_FILE = WJKMultipleSelectTableViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKMultipleSelectTableViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJKMultipleSelectTableViewControllerDemo.app/WJKMultipleSelectTableViewControllerDemo";
+			};
+			name = Debug;
+		};
+		FACA7CA91F751E7C00857AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				INFOPLIST_FILE = WJKMultipleSelectTableViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKMultipleSelectTableViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJKMultipleSelectTableViewControllerDemo.app/WJKMultipleSelectTableViewControllerDemo";
+			};
+			name = Release;
+		};
+		FACA7CAB1F751E7C00857AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				INFOPLIST_FILE = WJKMultipleSelectTableViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKMultipleSelectTableViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJKMultipleSelectTableViewControllerDemo;
+			};
+			name = Debug;
+		};
+		FACA7CAC1F751E7C00857AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				INFOPLIST_FILE = WJKMultipleSelectTableViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKMultipleSelectTableViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJKMultipleSelectTableViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACA7C721F751E7C00857AB3 /* Build configuration list for PBXProject "WJKMultipleSelectTableViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACA7CA21F751E7C00857AB3 /* Debug */,
+				FACA7CA31F751E7C00857AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACA7CA41F751E7C00857AB3 /* Build configuration list for PBXNativeTarget "WJKMultipleSelectTableViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACA7CA51F751E7C00857AB3 /* Debug */,
+				FACA7CA61F751E7C00857AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACA7CA71F751E7C00857AB3 /* Build configuration list for PBXNativeTarget "WJKMultipleSelectTableViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACA7CA81F751E7C00857AB3 /* Debug */,
+				FACA7CA91F751E7C00857AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACA7CAA1F751E7C00857AB3 /* Build configuration list for PBXNativeTarget "WJKMultipleSelectTableViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACA7CAB1F751E7C00857AB3 /* Debug */,
+				FACA7CAC1F751E7C00857AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACA7C6F1F751E7C00857AB3 /* Project object */;
+}

@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  WJKMultipleSelectTableViewControllerDemo
+//
+//  Created by Zeaho on 2017/9/22.
+//  Copyright © 2017年 Zeaho. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/** 屏幕尺寸 **/
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+
+/// 系统控件默认高度
+#define kStatusBarHeight        (20.f)
+
+#define kTopBarHeight           (44.f)
+#define kBottomBarHeight        (49.f)
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
