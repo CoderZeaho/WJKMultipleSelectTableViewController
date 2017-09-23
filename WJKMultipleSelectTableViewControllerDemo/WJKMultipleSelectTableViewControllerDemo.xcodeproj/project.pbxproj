@@ -12,10 +12,10 @@
 		FACA7C821F751E7C00857AB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7C811F751E7C00857AB3 /* ViewController.m */; };
 		FACA7C851F751E7C00857AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA7C831F751E7C00857AB3 /* Main.storyboard */; };
 		FACA7C871F751E7C00857AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACA7C861F751E7C00857AB3 /* Assets.xcassets */; };
-		FACA7CB31F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CB01F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m */; };
-		FACA7CB41F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CB21F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m */; };
 		FACA7CBA1F75204C00857AB3 /* ZHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CB91F75204C00857AB3 /* ZHBaseTableViewController.m */; };
 		FACA7CBD1F75230E00857AB3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA7CBC1F75230E00857AB3 /* Launch Screen.storyboard */; };
+		FACA7CC41F75235900857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CC11F75235900857AB3 /* WJKMultipleSelectTableViewCell.m */; };
+		FACA7CC51F75235900857AB3 /* WJKMultipleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CC31F75235900857AB3 /* WJKMultipleSelectTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +47,14 @@
 		FACA7C8B1F751E7C00857AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FACA7C901F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJKMultipleSelectTableViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACA7C9B1F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJKMultipleSelectTableViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FACA7CAF1F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewCell.h; sourceTree = "<group>"; };
-		FACA7CB01F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewCell.m; sourceTree = "<group>"; };
-		FACA7CB11F751EBF00857AB3 /* WJKMultipleSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewController.h; sourceTree = "<group>"; };
-		FACA7CB21F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewController.m; sourceTree = "<group>"; };
 		FACA7CB81F75204C00857AB3 /* ZHBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBaseTableViewController.h; sourceTree = "<group>"; };
 		FACA7CB91F75204C00857AB3 /* ZHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBaseTableViewController.m; sourceTree = "<group>"; };
 		FACA7CBB1F75213A00857AB3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FACA7CBC1F75230E00857AB3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FACA7CC01F75235900857AB3 /* WJKMultipleSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewCell.h; sourceTree = "<group>"; };
+		FACA7CC11F75235900857AB3 /* WJKMultipleSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewCell.m; sourceTree = "<group>"; };
+		FACA7CC21F75235900857AB3 /* WJKMultipleSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewController.h; sourceTree = "<group>"; };
+		FACA7CC31F75235900857AB3 /* WJKMultipleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		FACA7C791F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FACA7CAD1F751EBF00857AB3 /* MultipleSelectTableViewController */,
+				FACA7CBE1F75235900857AB3 /* MultipleSelectTableViewController */,
 				FACA7C7D1F751E7C00857AB3 /* AppDelegate.h */,
 				FACA7C7E1F751E7C00857AB3 /* AppDelegate.m */,
 				FACA7CB81F75204C00857AB3 /* ZHBaseTableViewController.h */,
@@ -128,21 +128,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FACA7CAD1F751EBF00857AB3 /* MultipleSelectTableViewController */ = {
+		FACA7CBE1F75235900857AB3 /* MultipleSelectTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FACA7CAE1F751EBF00857AB3 /* WJKMultipleSelectTableViewCell */,
-				FACA7CB11F751EBF00857AB3 /* WJKMultipleSelectTableViewController.h */,
-				FACA7CB21F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m */,
+				FACA7CBF1F75235900857AB3 /* WJKMultipleSelectTableViewCell */,
+				FACA7CC21F75235900857AB3 /* WJKMultipleSelectTableViewController.h */,
+				FACA7CC31F75235900857AB3 /* WJKMultipleSelectTableViewController.m */,
 			);
 			path = MultipleSelectTableViewController;
 			sourceTree = "<group>";
 		};
-		FACA7CAE1F751EBF00857AB3 /* WJKMultipleSelectTableViewCell */ = {
+		FACA7CBF1F75235900857AB3 /* WJKMultipleSelectTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				FACA7CAF1F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.h */,
-				FACA7CB01F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m */,
+				FACA7CC01F75235900857AB3 /* WJKMultipleSelectTableViewCell.h */,
+				FACA7CC11F75235900857AB3 /* WJKMultipleSelectTableViewCell.m */,
 			);
 			path = WJKMultipleSelectTableViewCell;
 			sourceTree = "<group>";
@@ -283,11 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACA7CB31F751EBF00857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */,
+				FACA7CC41F75235900857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */,
 				FACA7C821F751E7C00857AB3 /* ViewController.m in Sources */,
+				FACA7CC51F75235900857AB3 /* WJKMultipleSelectTableViewController.m in Sources */,
 				FACA7CBA1F75204C00857AB3 /* ZHBaseTableViewController.m in Sources */,
 				FACA7C7F1F751E7C00857AB3 /* AppDelegate.m in Sources */,
-				FACA7CB41F751EBF00857AB3 /* WJKMultipleSelectTableViewController.m in Sources */,
 				FACA7C7C1F751E7C00857AB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
