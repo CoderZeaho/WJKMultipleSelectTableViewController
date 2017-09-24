@@ -10,15 +10,13 @@
 
 @interface WJKMultipleSelectTableViewCell ()
 
-@property (nonatomic, strong) UIImageView *checkImageView;
-
 @end
 
 @implementation WJKMultipleSelectTableViewCell
 
 - (void)dealloc
 {
-    self.checkImageView = nil;
+    m_checkImageView = nil;
 }
 
 - (void)setCheckImageViewCenter:(CGPoint)pt alpha:(CGFloat)alpha animated:(BOOL)animated {
@@ -28,13 +26,13 @@
         [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
         [UIView setAnimationDuration:0.3];
         
-        self.checkImageView.center = pt;
-        self.checkImageView.alpha = alpha;
+        m_checkImageView.center = pt;
+        m_checkImageView.alpha = alpha;
         
         [UIView commitAnimations];
     } else {
-        self.checkImageView.center = pt;
-        self.checkImageView.alpha = alpha;
+        m_checkImageView.center = pt;
+        m_checkImageView.alpha = alpha;
     }
 }
 
@@ -48,22 +46,22 @@
     
     if (editting) {
         self.selectionStyle = UITableViewCellSelectionStyleNone;
-        if (self.checkImageView == nil) {
-            self.checkImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"对勾"]];
-            [self addSubview:[self checkImageView]];
+        if (m_checkImageView == nil) {
+            m_checkImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"对勾"]];
+            [self addSubview:m_checkImageView];
         }
         
-        [self setIsChecked:[self isChecked]];
-        self.checkImageView.center = CGPointMake(-CGRectGetWidth(self.checkImageView.frame) * 0.5,
+        [self setChecked:m_checked];
+        m_checkImageView.center = CGPointMake(-CGRectGetWidth(m_checkImageView.frame) * 0.5,
                                               CGRectGetHeight(self.bounds) * 0.5);
-        self.checkImageView.alpha = 0.0;
+        m_checkImageView.alpha = 0.0;
         [self setCheckImageViewCenter:CGPointMake(20.5, CGRectGetHeight(self.bounds) * 0.5)
                                 alpha:1.0 animated:animated];
     } else {
-        self.isChecked = NO;
+        m_checked = NO;
         self.backgroundView = nil;
-        if (self.checkImageView) {
-            [self setCheckImageViewCenter:CGPointMake(-CGRectGetWidth(self.checkImageView.frame) * 0.5,
+        if (m_checkImageView) {
+            [self setCheckImageViewCenter:CGPointMake(-CGRectGetWidth(m_checkImageView.frame) * 0.5,
                                                       CGRectGetHeight(self.bounds) * 0.5)
                                     alpha:0.0
                                  animated:animated];
@@ -71,15 +69,15 @@
     }
 }
 
-- (void)setIsChecked:(BOOL)isChecked {
-    if (isChecked) {
-        self.checkImageView.image = [UIImage imageNamed:@"对勾选中"];
+- (void)setChecked:(BOOL)checked {
+    if (checked) {
+        m_checkImageView.image = [UIImage imageNamed:@"对勾选中"];
         self.backgroundView.backgroundColor = [UIColor colorWithRed:223.0/255.0 green:230.0/255.0 blue:250.0/255.0 alpha:1.0];
     } else {
-        self.checkImageView.image = [UIImage imageNamed:@"对勾"];
+        m_checkImageView.image = [UIImage imageNamed:@"对勾"];
         self.backgroundView.backgroundColor = [UIColor whiteColor];
     }
-    _isChecked = isChecked;
+    m_checked = checked;
 }
 
 @end

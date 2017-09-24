@@ -8,12 +8,9 @@
 
 #import "ZHBaseTableViewController.h"
 
-@interface Item : NSObject
-
+@interface Model : NSObject
 @property (nonatomic, strong) NSString *title;
-
 @property (nonatomic, assign) BOOL isChecked;
-
 @end
 
 @interface WJKMultipleSelectTableViewController : ZHBaseTableViewController

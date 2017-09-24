@@ -6,7 +6,7 @@
 //  Copyright © 2017年 xhb_iOS. All rights reserved.
 //
 
-#import "ZHBaseTableViewController.h"
+#import "WJKBaseTableViewController.h"
 
 @interface Item : NSObject
 
@@ -16,6 +16,6 @@
 
 @end
 
-@interface WJKMultipleSelectTableViewController : ZHBaseTableViewController
+@interface WJKMultipleSelectTableViewController : WJKBaseTableViewController
 
 @end

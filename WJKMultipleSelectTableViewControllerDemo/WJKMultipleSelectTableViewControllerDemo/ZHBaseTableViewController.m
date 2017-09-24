@@ -45,7 +45,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.automaticallyAdjustsScrollViewInsets = NO;
     self.tableView.contentOffset = CGPointMake(0, - [self contentInset].top);
     self.tableView.contentInset = [self contentInset];
     self.tableView.scrollIndicatorInsets = [self contentInset];

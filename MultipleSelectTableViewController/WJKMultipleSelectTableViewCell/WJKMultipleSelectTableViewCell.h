@@ -6,13 +6,16 @@
 //  Copyright © 2017年 xhb_iOS. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "WJKBaseTableViewCell.h"
 
-@interface WJKMultipleSelectTableViewCell : UITableViewCell
+@interface WJKMultipleSelectTableViewCell : WJKBaseTableViewCell
+{
+@private
+    UIImageView*	m_checkImageView;
+    BOOL			m_checked;
+}
 
-@property (nonatomic, strong, readonly) UIImageView *checkImageView;
-
-@property (nonatomic, assign) BOOL isChecked;
+- (void)setChecked:(BOOL)checked;
 
 - (void)setEditing:(BOOL)editting animated:(BOOL)animated;
 

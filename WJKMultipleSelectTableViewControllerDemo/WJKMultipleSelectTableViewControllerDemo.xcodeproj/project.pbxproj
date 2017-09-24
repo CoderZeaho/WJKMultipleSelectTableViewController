@@ -14,8 +14,9 @@
 		FACA7C871F751E7C00857AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACA7C861F751E7C00857AB3 /* Assets.xcassets */; };
 		FACA7CBA1F75204C00857AB3 /* ZHBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CB91F75204C00857AB3 /* ZHBaseTableViewController.m */; };
 		FACA7CBD1F75230E00857AB3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA7CBC1F75230E00857AB3 /* Launch Screen.storyboard */; };
-		FACA7CC41F75235900857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CC11F75235900857AB3 /* WJKMultipleSelectTableViewCell.m */; };
-		FACA7CC51F75235900857AB3 /* WJKMultipleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CC31F75235900857AB3 /* WJKMultipleSelectTableViewController.m */; };
+		FACA7CC81F77C1DD00857AB3 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CC71F77C1DD00857AB3 /* TableViewCell.m */; };
+		FACA7CCF1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CCC1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell.m */; };
+		FACA7CD01F77C5A400857AB3 /* WJKMultipleSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACA7CCE1F77C5A400857AB3 /* WJKMultipleSelectTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +52,12 @@
 		FACA7CB91F75204C00857AB3 /* ZHBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBaseTableViewController.m; sourceTree = "<group>"; };
 		FACA7CBB1F75213A00857AB3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FACA7CBC1F75230E00857AB3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		FACA7CC01F75235900857AB3 /* WJKMultipleSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewCell.h; sourceTree = "<group>"; };
-		FACA7CC11F75235900857AB3 /* WJKMultipleSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewCell.m; sourceTree = "<group>"; };
-		FACA7CC21F75235900857AB3 /* WJKMultipleSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewController.h; sourceTree = "<group>"; };
-		FACA7CC31F75235900857AB3 /* WJKMultipleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewController.m; sourceTree = "<group>"; };
+		FACA7CC61F77C1DD00857AB3 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		FACA7CC71F77C1DD00857AB3 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		FACA7CCB1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewCell.h; sourceTree = "<group>"; };
+		FACA7CCC1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewCell.m; sourceTree = "<group>"; };
+		FACA7CCD1F77C5A400857AB3 /* WJKMultipleSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKMultipleSelectTableViewController.h; sourceTree = "<group>"; };
+		FACA7CCE1F77C5A400857AB3 /* WJKMultipleSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKMultipleSelectTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +106,15 @@
 		FACA7C791F751E7C00857AB3 /* WJKMultipleSelectTableViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FACA7CBE1F75235900857AB3 /* MultipleSelectTableViewController */,
-				FACA7C7D1F751E7C00857AB3 /* AppDelegate.h */,
-				FACA7C7E1F751E7C00857AB3 /* AppDelegate.m */,
 				FACA7CB81F75204C00857AB3 /* ZHBaseTableViewController.h */,
 				FACA7CB91F75204C00857AB3 /* ZHBaseTableViewController.m */,
+				FACA7CC91F77C5A400857AB3 /* MultipleSelectTableViewController */,
+				FACA7C7D1F751E7C00857AB3 /* AppDelegate.h */,
+				FACA7C7E1F751E7C00857AB3 /* AppDelegate.m */,
 				FACA7C801F751E7C00857AB3 /* ViewController.h */,
 				FACA7C811F751E7C00857AB3 /* ViewController.m */,
+				FACA7CC61F77C1DD00857AB3 /* TableViewCell.h */,
+				FACA7CC71F77C1DD00857AB3 /* TableViewCell.m */,
 				FACA7C831F751E7C00857AB3 /* Main.storyboard */,
 				FACA7CBC1F75230E00857AB3 /* Launch Screen.storyboard */,
 				FACA7C861F751E7C00857AB3 /* Assets.xcassets */,
@@ -128,21 +133,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FACA7CBE1F75235900857AB3 /* MultipleSelectTableViewController */ = {
+		FACA7CC91F77C5A400857AB3 /* MultipleSelectTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FACA7CBF1F75235900857AB3 /* WJKMultipleSelectTableViewCell */,
-				FACA7CC21F75235900857AB3 /* WJKMultipleSelectTableViewController.h */,
-				FACA7CC31F75235900857AB3 /* WJKMultipleSelectTableViewController.m */,
+				FACA7CCA1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell */,
+				FACA7CCD1F77C5A400857AB3 /* WJKMultipleSelectTableViewController.h */,
+				FACA7CCE1F77C5A400857AB3 /* WJKMultipleSelectTableViewController.m */,
 			);
 			path = MultipleSelectTableViewController;
 			sourceTree = "<group>";
 		};
-		FACA7CBF1F75235900857AB3 /* WJKMultipleSelectTableViewCell */ = {
+		FACA7CCA1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				FACA7CC01F75235900857AB3 /* WJKMultipleSelectTableViewCell.h */,
-				FACA7CC11F75235900857AB3 /* WJKMultipleSelectTableViewCell.m */,
+				FACA7CCB1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell.h */,
+				FACA7CCC1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell.m */,
 			);
 			path = WJKMultipleSelectTableViewCell;
 			sourceTree = "<group>";
@@ -283,11 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACA7CC41F75235900857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */,
+				FACA7CC81F77C1DD00857AB3 /* TableViewCell.m in Sources */,
 				FACA7C821F751E7C00857AB3 /* ViewController.m in Sources */,
-				FACA7CC51F75235900857AB3 /* WJKMultipleSelectTableViewController.m in Sources */,
 				FACA7CBA1F75204C00857AB3 /* ZHBaseTableViewController.m in Sources */,
 				FACA7C7F1F751E7C00857AB3 /* AppDelegate.m in Sources */,
+				FACA7CD01F77C5A400857AB3 /* WJKMultipleSelectTableViewController.m in Sources */,
+				FACA7CCF1F77C5A400857AB3 /* WJKMultipleSelectTableViewCell.m in Sources */,
 				FACA7C7C1F751E7C00857AB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +524,7 @@
 				FACA7CA61F751E7C00857AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FACA7CA71F751E7C00857AB3 /* Build configuration list for PBXNativeTarget "WJKMultipleSelectTableViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				FACA7CA91F751E7C00857AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FACA7CAA1F751E7C00857AB3 /* Build configuration list for PBXNativeTarget "WJKMultipleSelectTableViewControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				FACA7CAC1F751E7C00857AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -41,15 +41,22 @@
     
     self.tableView.allowsSelectionDuringEditing = YES;
     
-    self.editOperationView = [[UIView alloc] initWithFrame:CGRectZero];
-    self.editOperationView.frame = CGRectMake(0, SCREENHEIGHT - kBottomBarHeight, CGRectGetWidth(self.view.frame), kBottomBarHeight);
+    
+    self.editOperationView = [UIView emptyFrameView];
+    self.editOperationView.frame = CGRectMake(0, 0, SCREENWIDTH, kBottomBarHeight);
+    self.editOperationView.bottom = SCREENHEIGHT;
     self.editOperationView.hidden = YES;
     [[self view] addSubview:[self editOperationView]];
     
     [[self editOperationView] addSubview:[self selectAllButton]];
     [[self editOperationView] addSubview:[self deleteButton]];
     
+    //确定与取消间竖线
+    [[self editOperationView] addTopLineWithColor:[UIColor black8Color]];
+    [[self editOperationView] addDividingLineWithColor:[UIColor fontGrayColor]];
+    
     [[self tableView] reloadData];
+    
 }
 
 #pragma mark - accessor
@@ -76,7 +83,8 @@
 - (void)didClickedDeleteButton:(UIButton *)sender {
 }
 
-- (void)setEditing:(BOOL)editting animated:(BOOL)animated {
+- (void)setEditing:(BOOL)editting animated:(BOOL)animated
+{
     // 初始化状态
     [[self selectAllButton] setTitle:@"全选" forState:UIControlStateNormal];
     self.navigationItem.rightBarButtonItem.title = self.tableView.editing ? @"编辑" : @"取消";
@@ -126,7 +134,7 @@
     NSMutableArray *sectionArray = [NSMutableArray arrayWithArray:[[self dataSource] firstObject]];
     Item *item = [sectionArray objectAtIndex:indexPath.row];
     cell.textLabel.text = item.title;
-    cell.isChecked = item.isChecked;
+    [cell setChecked:item.isChecked];
     return cell;;
 }
 
@@ -137,7 +145,7 @@
     if (self.tableView.editing) {
         WJKMultipleSelectTableViewCell *cell = (WJKMultipleSelectTableViewCell*)[tableView cellForRowAtIndexPath:indexPath];
         item.isChecked = !item.isChecked;
-        cell.isChecked = item.isChecked;
+        [cell setChecked:item.isChecked];
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
@@ -148,7 +156,7 @@
         _selectAllButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_selectAllButton setTitle:@"全选" forState:UIControlStateNormal];
         [_selectAllButton setBackgroundColor:[UIColor whiteColor]];
-        [_selectAllButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_selectAllButton setTitleColor:[UIColor fontDarkBlackColor] forState:UIControlStateNormal];
         _selectAllButton.frame = CGRectMake(0, 0, SCREENWIDTH/2, kBottomBarHeight);
         [_selectAllButton addTarget:self action:@selector(didClickedSelectAllButton:) forControlEvents:UIControlEventTouchUpInside];
     }
@@ -160,7 +168,7 @@
         _deleteButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_deleteButton setTitle:@"删除" forState:UIControlStateNormal];
         [_deleteButton setBackgroundColor:[UIColor whiteColor]];
-        [_deleteButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_deleteButton setTitleColor:[UIColor fontDarkBlackColor] forState:UIControlStateNormal];
         _deleteButton.frame = CGRectMake(SCREENWIDTH/2, 0, SCREENWIDTH/2, kBottomBarHeight);
         [_deleteButton addTarget:self action:@selector(didClickedDeleteButton:) forControlEvents:UIControlEventTouchUpInside];
     }

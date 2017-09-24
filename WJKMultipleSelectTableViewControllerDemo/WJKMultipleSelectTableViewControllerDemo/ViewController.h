@@ -6,10 +6,9 @@
 //  Copyright © 2017年 Zeaho. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "WJKMultipleSelectTableViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : WJKMultipleSelectTableViewController
 
 @end
 
